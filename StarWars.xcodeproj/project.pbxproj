@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		675FAF4C2A32049400839B69 /* EpisodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675FAF4A2A32049400839B69 /* EpisodeCell.swift */; };
+		675FAF4D2A32049400839B69 /* EpisodeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 675FAF4B2A32049400839B69 /* EpisodeCell.xib */; };
 		676F233E2A30D746003DF1EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676F233D2A30D746003DF1EA /* AppDelegate.swift */; };
 		676F23402A30D746003DF1EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676F233F2A30D746003DF1EA /* SceneDelegate.swift */; };
 		676F23452A30D746003DF1EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 676F23432A30D746003DF1EA /* Main.storyboard */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		675FAF4A2A32049400839B69 /* EpisodeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeCell.swift; sourceTree = "<group>"; };
+		675FAF4B2A32049400839B69 /* EpisodeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EpisodeCell.xib; sourceTree = "<group>"; };
 		676F233A2A30D746003DF1EA /* StarWars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		676F233D2A30D746003DF1EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		676F233F2A30D746003DF1EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -128,6 +132,8 @@
 			isa = PBXGroup;
 			children = (
 				676F23592A30EE99003DF1EA /* EpisodeViewController.swift */,
+				675FAF4A2A32049400839B69 /* EpisodeCell.swift */,
+				675FAF4B2A32049400839B69 /* EpisodeCell.xib */,
 			);
 			path = EpisodeViewController;
 			sourceTree = "<group>";
@@ -191,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				676F234A2A30D747003DF1EA /* LaunchScreen.storyboard in Resources */,
+				675FAF4D2A32049400839B69 /* EpisodeCell.xib in Resources */,
 				676F23472A30D747003DF1EA /* Assets.xcassets in Resources */,
 				676F23452A30D746003DF1EA /* Main.storyboard in Resources */,
 			);
@@ -207,6 +214,7 @@
 				676F233E2A30D746003DF1EA /* AppDelegate.swift in Sources */,
 				676F235F2A30F569003DF1EA /* NetworkManager.swift in Sources */,
 				676F23402A30D746003DF1EA /* SceneDelegate.swift in Sources */,
+				675FAF4C2A32049400839B69 /* EpisodeCell.swift in Sources */,
 				676F23612A30F646003DF1EA /* Link.swift in Sources */,
 				676F235B2A30EE99003DF1EA /* EpisodeViewController.swift in Sources */,
 			);

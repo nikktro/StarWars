@@ -16,13 +16,13 @@ class EpisodeViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    setup()
+    configureTableView()
     fetchEpisodes(from: Link.films.rawValue)
   }
 }
 
 private extension EpisodeViewController {
-  func setup() {
+  func configureTableView() {
     setupUI()
     setupCell()
     setupTableViewDelegateAndDataSource()
@@ -30,6 +30,7 @@ private extension EpisodeViewController {
 
   func setupUI() {
     setupTableView()
+    title = "Episodes"
   }
 
   func setupTableView() {
